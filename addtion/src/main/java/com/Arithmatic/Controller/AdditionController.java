@@ -24,4 +24,8 @@ public class AdditionController
 		model.addAttribute("addtion",addtion);
 		return "calculate";
 	}
+	@GetMapping("/hello")
+	public String h(){
+		return "Hello";
+	}
 }
